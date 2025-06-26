@@ -66,7 +66,7 @@
             <thead>
               <tr>
                 <th scope="col" class="w-50">Titolo</th>
-                <th scope="col">Data prestito</th>
+                <th scope="col" class="d-none d-md-table-cell">Data prestito</th>
                 <th scope="col">Stato</th>
                 <th scope="col">Azioni</th>
               </tr>
@@ -74,7 +74,7 @@
             <tbody>
               <tr>
                 <th>I pilastri della terra</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -89,7 +89,7 @@
               </tr>
               <tr>
                 <th>I promessi sposi</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -104,7 +104,7 @@
               </tr>
               <tr>
                 <th>Il signore degli anelli</th>
-                <td>18/10/2023</td>
+                <td class="d-none d-md-table-cell">18/10/2023</td>
                 <td>
                   <span class="badge text-bg-warning text-white">In prestito</span>
                 </td>
@@ -119,7 +119,7 @@
               </tr>
               <tr>
                 <th>Harry Potter e la pietra filosofare</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -134,7 +134,7 @@
               </tr>
               <tr>
                 <th>il codice Da Vinci</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-danger">Non disponibile</span>
                 </td>
@@ -149,7 +149,7 @@
               </tr>
               <tr>
                 <th>Shining</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -164,7 +164,7 @@
               </tr>
               <tr>
                 <th>La divina commedia</th>
-                <td>21/09/2023</td>
+                <td class="d-none d-md-table-cell">21/09/2023</td>
                 <td>
                   <span class="badge text-bg-warning text-white">In prestito</span>
                 </td>
@@ -179,7 +179,7 @@
               </tr>
               <tr>
                 <th>Il trono di spade</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -194,7 +194,7 @@
               </tr>
               <tr>
                 <th>Il mondo di Sofia</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-danger">Non disponibile</span>
                 </td>
@@ -209,7 +209,7 @@
               </tr>
               <tr>
                 <th>Le cronache di Narnia: il leone,la trega e l'armadio</th>
-                <td>25/07/2023</td>
+                <td class="d-none d-md-table-cell">25/07/2023</td>
                 <td>
                   <span class="badge text-bg-warning text-white">In prestito</span>
                 </td>
@@ -224,7 +224,7 @@
               </tr>
               <tr>
                 <th>Il piccolo principe</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -239,7 +239,7 @@
               </tr>
               <tr>
                 <th>La storia infinita</th>
-                <td>-</td>
+                <td class="d-none d-md-table-cell">-</td>
                 <td>
                   <span class="badge text-bg-success">Disponibile</span>
                 </td>
@@ -255,7 +255,41 @@
             </tbody>
           </table>
         </div>
-        <div class="col-12 col-lg-4"></div>
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h2>Todo</h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                    <label class="form-check-label" for="checkDefault">
+                      Chiamare segreteria
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                    <label class="form-check-label" for="checkDefault">
+                      Mandare avvisi prestiti scaduti
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                    <label class="form-check-label" for="checkDefault">
+                      Ordinarenuovi libri
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
